@@ -1,0 +1,10 @@
+
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 5rem;
+   width: 100vw;
+    
+}
