@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --white1: #F5F5F5;
+    --green-logo:#25995c;
+}
 
 *{
     padding: 0;
