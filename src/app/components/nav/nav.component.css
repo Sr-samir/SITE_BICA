@@ -1,0 +1,52 @@
+
+.barra-nav ol{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 0 20%;
+    position:relative;
+    top: -35px; 
+    
+
+}
+
+.lista-nav li a {
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+    display: block;
+    padding: 5px;
+    font-size: 1.1rem;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    letter-spacing: 1px;
+    
+}
+
+
+ .lista-nav a::after{
+    content: "";
+    position: absolute;
+    background-color:#25995c;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    transition:  0.5s;
+
+    transform: scaleX(0);
+    transform-origin: right;
+    
+ }
+.lista-nav li a:hover{
+    color: #25995c;
+
+}
+
+ .lista-nav a:hover:after{
+    width: 100%;
+    transform-origin: left;
+    transform: scaleX(1);
+
+ }
