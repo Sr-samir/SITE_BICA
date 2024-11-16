@@ -1,0 +1,107 @@
+
+
+section{
+    display: flex;
+ }
+
+
+ .principal-img { 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: -31px;
+    
+    
+}
+.imgflex{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 90%;
+    filter: brightness(110%) contrast(110%) saturate(120%);
+}
+
+.nome-main{
+    
+    z-index: 1;
+    
+    opacity: 6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.5rem;
+    position: absolute;
+    letter-spacing: 1px;
+    color: #25995c;
+    top: 30px;
+    left: 30px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-weight: bolder;
+    backdrop-filter: blur(50px);
+    padding: 0 10px;
+    border-radius: 5px;
+
+}
+
+/* ------------section cards------------------ */
+
+
+.cards{
+    flex-direction: column;
+    gap: 150px;
+}
+.container{
+    display: flex;
+    width: 80%;
+    height: 400px;
+    top: 70px;
+    /* background-color: rgb(202, 7, 7); */
+    position: relative;
+    margin: 0 auto;
+    
+}
+    
+    
+    
+    
+
+.texto{
+    left: 810px;
+    font-size: 1.1rem;
+    position: absolute;
+    top: 15px;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    
+    text-shadow: 1px 0px 0px rgb(138, 132, 132);
+    font-weight: bolder;
+    padding: 50px 10px;
+    padding-top: 10px;
+    background-color:#25995c;
+    border-radius: 5%;
+}   
+    
+
+ 
+#paragrafo{
+    position: relative;
+    top: 30px;
+    color: aliceblue;
+}
+
+h2{
+    color: rgba(22, 21, 21, 0.918);
+}
+
+    
+
+.img-card1{
+    width:500px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 2%;
+    
+    
+}
