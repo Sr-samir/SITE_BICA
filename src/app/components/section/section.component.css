@@ -53,7 +53,7 @@ section{
 .container{
     display: flex;
     width: 80%;
-    height: 400px;
+    height: 450px;
     top: 70px;
     /* background-color: rgb(202, 7, 7); */
     position: relative;
@@ -76,7 +76,7 @@ section{
     
     text-shadow: 1px 0px 0px rgb(138, 132, 132);
     font-weight: bolder;
-    padding: 50px 10px;
+    padding: 60px 90px;
     padding-top: 10px;
     background-color:#25995c;
     border-radius: 5%;
