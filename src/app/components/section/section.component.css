@@ -71,15 +71,15 @@ section{
     position: absolute;
     top: 15px;
     letter-spacing: 1px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
     font-weight: 300;
     
-    text-shadow: 1px 0px 0px rgb(138, 132, 132);
+    text-shadow: 1px 0px 0px rgb(99, 98, 98);
     font-weight: bolder;
     padding: 60px 90px;
     padding-top: 10px;
-    background-color:#25995c;
-    border-radius: 5%;
+    background-color:#737a76;
+    border-radius: 1%;
 }   
     
 
@@ -91,17 +91,18 @@ section{
 }
 
 h2{
-    color: rgba(22, 21, 21, 0.918);
+    color: rgba(221, 215, 215, 0.918);
+
 }
 
     
 
 .img-card1{
-    width:500px;
-    height: 400px;
+    width:800px;
+    height: 500px;
     display: block;
     margin: 0 auto;
-    border-radius: 2%;
+    border-radius: 1%;
     
     
 }
