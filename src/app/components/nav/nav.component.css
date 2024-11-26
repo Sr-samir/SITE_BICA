@@ -1,13 +1,18 @@
-
+ .fixe{
+    position: fixed;
+     z-index: 60;
+ }
 .barra-nav ol{
+    top: 70px;
+    z-index: 50;
+    width: 100%;
     display: flex;
     list-style-type: none;
     text-align: center;
     justify-content: center;
     justify-content: space-around;
     padding: 0 20%;
-    position:relative;
-    top: -35px; 
+    position: fixed;
     
 
 }
