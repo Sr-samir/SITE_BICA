@@ -67,6 +67,7 @@ main{
     
 }
 .texto{
+
     flex-direction: column;
     display: flex;
     /* background-color:#25995b; */
@@ -79,12 +80,16 @@ main{
     letter-spacing: 1px;
 }
 
+    
+
+
 
 .img-card1{
  width: 600px;
  height: 400px;
  
 }
+
 
 .paragrafo{
  margin-top: 30px;
@@ -93,6 +98,9 @@ main{
  text-align: center;
 }
     
+
+
+
     
     
     
