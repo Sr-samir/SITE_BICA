@@ -7,6 +7,10 @@
     height: 7rem;
     width: 100vw;
     flex-wrap: wrap;
+    border-bottom: 1px solid black;
+    z-index: 50;
+    position: fixed;
+
     
     
 }
