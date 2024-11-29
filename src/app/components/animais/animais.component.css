@@ -1,0 +1,238 @@
+
+/* Sobre o Zoologico /////////////////////////////////////////////////////////////*/
+.h1-h1{
+    display: flex;
+    justify-content: center;
+    /* margin-right: 1300px; */
+    /* margin-left: 100px; */
+    margin-top: 100px;
+}
+
+.para-p{
+    margin-top: 20px;
+}
+.titulo-sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    justify-items: center;
+    /* display: flex; */
+}
+  
+.texto-h1{
+    font-size: 2rem;
+    color: #25995c;
+    font-weight: 900;
+
+}
+
+.card-ppp {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+  }
+  
+  
+  .ppp {
+    border-radius: 5px 5px 0 0;
+    height: 300px;
+    right: 50px;
+  }
+
+  /* jhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh ////////////////////////////////////////*/
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .pricing-table {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .pricing-plan {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  .pricing-plan h2 {
+    color: #25995c;
+  }
+  
+  .pricing-plan p {
+    font-size: 1rem;
+    color: #070707;
+    margin: 30px 0;
+    line-height: 1rem;
+    /* background-color: #004d40; */
+  }
+
+  #card{
+    display: flex;
+    margin:42px 0 ;
+  }
+
+  #card1{
+    margin: 20px;
+  }
+
+  
+  
+  .pricing-plan button {
+    background-color: #050505;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pricing-plan button:hover {
+    background-color: #25995c;
+  }
+
+  .pricing-plan img{
+    width: 300px;
+  }
+
+  /* parte 2 card Sobre o Zoologico///////////////////////////////////////////////////////////////////// */
+
+  .h1-h1-h1{
+    margin-left: 100px;
+  }
+
+  .card-cuidador{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;
+  }
+  
+  .div-text{
+    margin-left: 20px;
+    margin-top: 70px;
+  }
+
+  .h2-equipe{
+    color: #25995c;
+  }
+
+  .p-equipe{
+    margin-top: 10px;
+    width: 800px;
+    font-size: large;
+  }
+
+  /* .card-cuidador-2 ////////////////////////////////////////////////////*/
+
+  .card-cuidador-2{
+    display: flex;
+    justify-content: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 100px;
+
+  }
+
+  /* .card-cuidador-3 */
+
+  .card-educacao{
+    display: flex;
+    justify-content: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    margin-top: 100px;
+  }
+
+  /* card-edcucao//////////// */
+
+  
+  .img-educacao{
+    display: flex;
+    width: 700px;
+    height: 400px;
+    margin-left: 400px;
+  }
+
+
+  /* rodape Sobre o Zoologico//////////////////////// */
+
+  .rodape{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .oi-oi{
+    display: flex;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  .card-principal{
+    background-color: #e2e2e2;
+  }
+  .oi-tela{
+    background-color: #e2e2e2;
+  }
+
+  /* Galeria Animals e Exibicoes////////////////// */
+
+  .header1{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: 1px;
+    padding-top: 200px;
+    
+  }
+
+  .header1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #25995c;
+  }
+
+  .header1 p  {
+    font-weight: 100;
+    padding: 10px;
+  }
+
+  .gallery-container{
+    margin-top: 60px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+    
+  }
+
+  .gallery-items{
+    width: 200px;
+    /* height: 200px; */
+    border: 10px solid #fff;
+    box-shadow: 5px 5px 5px #0006;
+    flex-grow: 1;
+    transition: transform .2s linear;
+  }
+
+  .gallery-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .gallery-items:hover{
+    transform: scale(1.1);
+  }
+

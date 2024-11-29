@@ -1,0 +1,152 @@
+
+.conservação-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px
+}
+
+.con-h1{
+  margin-top: 20px;
+    color: #25995c;
+    font-size: 2rem;
+    font-weight: 900;
+    padding-top: 200px;
+}
+
+
+
+  
+  .pricing-table {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .pricing-plan {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+    margin-top: 28px;
+    /* background-color: #00796b; */
+  }
+  
+  .pricing-plan h2 {
+    color: #333;
+  }
+  
+  .pricing-plan p {
+    font-size: 17px;
+    color: #000000;
+    margin: 20px 0;
+    letter-spacing: 0.5px
+  }
+  
+  
+  .pricing-plan button {
+    background-color: #004d40;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pricing-plan-1 button:hover {
+    background-color: #004d40;
+  }
+
+  /* ///////////////////////////////////////////////// */
+
+  
+
+  .pricing-table-1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .pricing-plan-1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 550px;
+  }
+  .pricing-plan img{
+    width: 300px;
+    height: 200px;
+    
+  }
+  .pricing-plan-1 h2 {
+    color: #004d40;
+  }
+  
+  .pricing-plan-1 p {
+    font-size: 17px;
+    color: #000000;
+    margin: 20px 0;
+    letter-spacing: 0.5px;
+  }
+  
+ 
+  
+  
+  
+  .pricing-plan-1 button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pricing-plan button:hover {
+    background-color: #004d40;
+  }
+
+  .img-con{
+    width: 300px; 
+    height: 200px;
+  }
+
+  .conser-pri{
+    margin-top: 100px;
+  }
+
+  #teimoso{
+
+    margin-top: 20px;
+  }
+
+
+
+   /* rodape Sobre o Zoologico//////////////////////// */
+
+   .rodape{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .oi-oi{
+    display: flex;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  .card-principal{
+    background-color: #e2e2e2;
+  }
+
+  .oi-tela{
+    background-color: #e2e2e2;
+  }
